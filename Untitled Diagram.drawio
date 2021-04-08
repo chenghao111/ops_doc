@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T12:44:37.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="6mbvvtm_BthgcQyujL7J" version="14.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-08T02:21:42.379Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="jDB4Kgh94MT-c32a1FCO" version="14.5.3" type="github" pages="3">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="946" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -202,8 +202,52 @@
         <mxCell id="j5oXZpGhmqqbvKVeVAxf-19" value="转换老订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
           <mxGeometry x="390" y="290" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j5oXZpGhmqqbvKVeVAxf-21" target="j5oXZpGhmqqbvKVeVAxf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j5oXZpGhmqqbvKVeVAxf-21" value="rpc退款接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
           <mxGeometry x="390" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j5oXZpGhmqqbvKVeVAxf-23" target="j5oXZpGhmqqbvKVeVAxf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-23" value="rpc效期接口获取效期相关信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="390" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j5oXZpGhmqqbvKVeVAxf-25" target="j5oXZpGhmqqbvKVeVAxf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-25" value="获取ebs数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="390" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j5oXZpGhmqqbvKVeVAxf-27" target="j5oXZpGhmqqbvKVeVAxf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j5oXZpGhmqqbvKVeVAxf-27" target="j5oXZpGhmqqbvKVeVAxf-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-27" value="效期状态判断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="390" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j5oXZpGhmqqbvKVeVAxf-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-28" value="效期失效" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="580" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-31" value="删除ebs全部记录，插入不分摊的一条记录仪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="580" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j5oXZpGhmqqbvKVeVAxf-32" target="j5oXZpGhmqqbvKVeVAxf-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-32" value="生效中或者已终止" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="390" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-34" value="大于或等于退款月更新分摊表为不计提和删除状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="390" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
