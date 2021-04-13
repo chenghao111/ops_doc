@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T02:09:50.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="DRbZRjlxih_aJSivF2sv" version="14.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-13T02:31:22.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="4dTCRwCs-izqsYEgfwKj" version="14.5.3" type="github" pages="4">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="946" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -135,7 +135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MxWpt9nHLpOxBmcEa4De" name="ebs-solo主要流程">
-    <mxGraphModel dx="946" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="j5oXZpGhmqqbvKVeVAxf-0" />
         <mxCell id="j5oXZpGhmqqbvKVeVAxf-1" parent="j5oXZpGhmqqbvKVeVAxf-0" />
@@ -177,7 +177,10 @@
         <mxCell id="j5oXZpGhmqqbvKVeVAxf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j5oXZpGhmqqbvKVeVAxf-15" target="j5oXZpGhmqqbvKVeVAxf-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j5oXZpGhmqqbvKVeVAxf-15" value="组装数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+        <mxCell id="KXu8Ba7wx3Cq1T90SYpB-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j5oXZpGhmqqbvKVeVAxf-15" target="KXu8Ba7wx3Cq1T90SYpB-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-15" value="组装数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
           <mxGeometry x="200" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j5oXZpGhmqqbvKVeVAxf-17" value="批量插入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
@@ -233,7 +236,7 @@
         <mxCell id="j5oXZpGhmqqbvKVeVAxf-32" value="生效中或者已终止" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
           <mxGeometry x="390" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j5oXZpGhmqqbvKVeVAxf-34" value="大于或等于退款月更新分摊表为不计提和删除状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+        <mxCell id="j5oXZpGhmqqbvKVeVAxf-34" value="ebs当月更新分摊表为不计提后续月份删除状态D" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
           <mxGeometry x="390" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j8U5yGfyOsukzxuoRFVT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="j8U5yGfyOsukzxuoRFVT-0" target="j5oXZpGhmqqbvKVeVAxf-7">
@@ -245,11 +248,29 @@
         <mxCell id="j8U5yGfyOsukzxuoRFVT-0" value="订单状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
           <mxGeometry x="210" y="160" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="KXu8Ba7wx3Cq1T90SYpB-3" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="KXu8Ba7wx3Cq1T90SYpB-0" target="KXu8Ba7wx3Cq1T90SYpB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KXu8Ba7wx3Cq1T90SYpB-0" value="是否为overdue场景sku" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="50" y="620" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KXu8Ba7wx3Cq1T90SYpB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=2;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="KXu8Ba7wx3Cq1T90SYpB-2" target="KXu8Ba7wx3Cq1T90SYpB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KXu8Ba7wx3Cq1T90SYpB-2" value="调用&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 2px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;generateOverDueEbsData生成待插入列表&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=2;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="40" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KXu8Ba7wx3Cq1T90SYpB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=2;" edge="1" parent="j5oXZpGhmqqbvKVeVAxf-1" source="KXu8Ba7wx3Cq1T90SYpB-4" target="j5oXZpGhmqqbvKVeVAxf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KXu8Ba7wx3Cq1T90SYpB-4" value="14条数据，totoal_amount计算&lt;br&gt;order_type=91" style="rounded=1;whiteSpace=wrap;html=1;fontSize=2;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="j5oXZpGhmqqbvKVeVAxf-1">
+          <mxGeometry x="40" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="QHfACel5_hPgmf6nWx5p" name="solo-overdue场景job">
-    <mxGraphModel dx="119" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="119" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tMimUGktAiV6kVrvkh6D-0" />
         <mxCell id="tMimUGktAiV6kVrvkh6D-1" parent="tMimUGktAiV6kVrvkh6D-0" />
