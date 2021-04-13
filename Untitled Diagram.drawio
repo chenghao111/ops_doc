@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T02:06:24.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="boajNkUfBjPUchsO-TcM" version="14.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-13T02:09:50.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="DRbZRjlxih_aJSivF2sv" version="14.5.3" type="github" pages="4">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="946" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -249,20 +249,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QHfACel5_hPgmf6nWx5p" name="solo-overdue场景job">
-    <mxGraphModel dx="946" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="119" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tMimUGktAiV6kVrvkh6D-0" />
         <mxCell id="tMimUGktAiV6kVrvkh6D-1" parent="tMimUGktAiV6kVrvkh6D-0" />
-        <mxCell id="tMimUGktAiV6kVrvkh6D-2" value="每月1号定时任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
-          <mxGeometry x="300" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tMimUGktAiV6kVrvkh6D-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
-          <mxGeometry x="300" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="91NT0-rbxnt9hkcwfaZh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tMimUGktAiV6kVrvkh6D-1" source="91NT0-rbxnt9hkcwfaZh-0" target="91NT0-rbxnt9hkcwfaZh-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91NT0-rbxnt9hkcwfaZh-0" value="solo-overdue场景任务，每月1号触发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
+        <mxCell id="91NT0-rbxnt9hkcwfaZh-0" value="solo-overdue场景任务，每月1号触发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
           <mxGeometry x="1130" y="-420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="91NT0-rbxnt9hkcwfaZh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tMimUGktAiV6kVrvkh6D-1" source="91NT0-rbxnt9hkcwfaZh-1">
@@ -270,16 +264,16 @@
             <mxPoint x="1190" y="-210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="91NT0-rbxnt9hkcwfaZh-1" value="定时扫描ebs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
+        <mxCell id="91NT0-rbxnt9hkcwfaZh-1" value="定时扫描ebs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
           <mxGeometry x="1130" y="-320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91NT0-rbxnt9hkcwfaZh-3" value="&lt;span class=&quot;md-plain md-expand&quot; style=&quot;box-sizing: border-box&quot;&gt;ebs查询条件（激活时间区间（上个月往前推13个月的月初和12个月的月初），pindetailType（solo_overdue） ,计提月(当前月上月),return_mark(Y)）分页批量查询；&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
-          <mxGeometry x="1340" y="-350" width="240" height="100" as="geometry" />
+        <mxCell id="91NT0-rbxnt9hkcwfaZh-3" value="&lt;span class=&quot;md-plain md-expand&quot; style=&quot;box-sizing: border-box&quot;&gt;ebs查询条件（激活时间区间（上个月往前推13个月的月初和12个月的月初），pindetailType（solo_overdue） ,计提月(当前月上月),return_mark(Y)）分页批量查询；&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
+          <mxGeometry x="1300" y="-340" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="91NT0-rbxnt9hkcwfaZh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tMimUGktAiV6kVrvkh6D-1" source="91NT0-rbxnt9hkcwfaZh-6" target="91NT0-rbxnt9hkcwfaZh-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91NT0-rbxnt9hkcwfaZh-6" value="查询合作商信息领取接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
+        <mxCell id="91NT0-rbxnt9hkcwfaZh-6" value="查询合作商信息领取接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
           <mxGeometry x="1130" y="-210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="91NT0-rbxnt9hkcwfaZh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tMimUGktAiV6kVrvkh6D-1" source="91NT0-rbxnt9hkcwfaZh-7">
@@ -300,19 +294,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="91NT0-rbxnt9hkcwfaZh-7" value="激活状态？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
-          <mxGeometry x="1140" y="-100" width="100" height="100" as="geometry" />
+        <mxCell id="91NT0-rbxnt9hkcwfaZh-7" value="激活状态？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
+          <mxGeometry x="1140" y="-110" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="91NT0-rbxnt9hkcwfaZh-10" value="不处理，结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
+        <mxCell id="91NT0-rbxnt9hkcwfaZh-10" value="不处理，结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
           <mxGeometry x="1300" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="91NT0-rbxnt9hkcwfaZh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tMimUGktAiV6kVrvkh6D-1" source="91NT0-rbxnt9hkcwfaZh-11" target="91NT0-rbxnt9hkcwfaZh-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91NT0-rbxnt9hkcwfaZh-11" value="更新该ebs数据retuen_mark为D" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
+        <mxCell id="91NT0-rbxnt9hkcwfaZh-11" value="更新该ebs数据retuen_mark为D" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
           <mxGeometry x="1130" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91NT0-rbxnt9hkcwfaZh-15" value="任务结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
+        <mxCell id="91NT0-rbxnt9hkcwfaZh-15" value="任务结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
           <mxGeometry x="1130" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
