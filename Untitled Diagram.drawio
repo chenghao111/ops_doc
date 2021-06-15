@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T02:42:45.685Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="HJiI6YoP7OBxBTfdpBNe" version="14.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-15T07:45:10.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="PY6WT1cwM9pCG7UPuo68" version="14.6.13" type="github" pages="5">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="946" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="932" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,7 +134,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="MxWpt9nHLpOxBmcEa4De" name="ebs-solo主要流程">
+  <diagram id="MxWpt9nHLpOxBmcEa4De" name="ebs-solo主要流程">
     <mxGraphModel dx="946" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="j5oXZpGhmqqbvKVeVAxf-0" />
@@ -347,6 +347,68 @@
         </mxCell>
         <mxCell id="91NT0-rbxnt9hkcwfaZh-15" value="任务结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tMimUGktAiV6kVrvkh6D-1">
           <mxGeometry x="1130" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5aKJcgD_yNb0bAJgFxin" name="频道楼层流程">
+    <mxGraphModel dx="932" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-0" />
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-1" parent="STYm8NEz5MxiOXsyMBuZ-0" />
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="STYm8NEz5MxiOXsyMBuZ-1" source="STYm8NEz5MxiOXsyMBuZ-2" target="STYm8NEz5MxiOXsyMBuZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="STYm8NEz5MxiOXsyMBuZ-1" source="STYm8NEz5MxiOXsyMBuZ-2" target="STYm8NEz5MxiOXsyMBuZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-11" value="1对多" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="STYm8NEz5MxiOXsyMBuZ-6">
+          <mxGeometry x="-0.6727" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-2" value="频道表/n_plus_topic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="STYm8NEz5MxiOXsyMBuZ-1">
+          <mxGeometry x="60" y="150" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-10" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="STYm8NEz5MxiOXsyMBuZ-1" source="STYm8NEz5MxiOXsyMBuZ-3" target="STYm8NEz5MxiOXsyMBuZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-3" value="频道/楼层中间表&lt;br&gt;n_plus_topic_location" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="STYm8NEz5MxiOXsyMBuZ-1">
+          <mxGeometry x="270" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="STYm8NEz5MxiOXsyMBuZ-1" source="STYm8NEz5MxiOXsyMBuZ-5" target="STYm8NEz5MxiOXsyMBuZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-12" value="1对1&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="STYm8NEz5MxiOXsyMBuZ-9">
+          <mxGeometry x="-0.2556" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-5" value="频道/楼层中间表&lt;br&gt;n_plus_topic_location" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="STYm8NEz5MxiOXsyMBuZ-1">
+          <mxGeometry x="270" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="STYm8NEz5MxiOXsyMBuZ-1" source="STYm8NEz5MxiOXsyMBuZ-7" target="STYm8NEz5MxiOXsyMBuZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="STYm8NEz5MxiOXsyMBuZ-1" source="STYm8NEz5MxiOXsyMBuZ-7" target="STYm8NEz5MxiOXsyMBuZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-24" value="1对多" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="STYm8NEz5MxiOXsyMBuZ-23">
+          <mxGeometry x="-0.7529" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-7" value="楼层表/n_plus_location&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="STYm8NEz5MxiOXsyMBuZ-1">
+          <mxGeometry x="270" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-13" value="&lt;div&gt;&lt;span&gt;楼层活动表/&lt;/span&gt;&lt;font color=&quot;#333333&quot; face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;n_plus_location_activity&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="STYm8NEz5MxiOXsyMBuZ-1">
+          <mxGeometry x="170" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-15" value="&lt;div&gt;&lt;span&gt;楼层活动表/&lt;/span&gt;&lt;font color=&quot;#333333&quot; face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;n_plus_location_activity&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="STYm8NEz5MxiOXsyMBuZ-1">
+          <mxGeometry x="364" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STYm8NEz5MxiOXsyMBuZ-20" value="plus活动表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="STYm8NEz5MxiOXsyMBuZ-1">
+          <mxGeometry x="260" y="525" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
